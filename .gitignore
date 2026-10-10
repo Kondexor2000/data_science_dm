@@ -1,0 +1,30 @@
+# Python environments and generated files
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated models and metrics
+artifacts/
+*.joblib
+
+# Keep only the synthetic example dataset in version control
+data/*
+!data/sample.csv
+
+# Editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
